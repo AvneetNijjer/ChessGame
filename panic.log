@@ -1,0 +1,618 @@
+*** ENVIRONMENT CRASH ***
+
+Date: Jan 19 2023 1:45 PM
+
+File Name: C:\Program Files (x86)\Ready to Program\Ready.exe
+Version: 1.7  [11]
+File Size: 2904103
+File Date: Oct 2 2003 3:13 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Undo (3) - sz:778:25629 - slFr:5667 - slTo:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 25daa40 - Undo: 1
+    Text - sz:778:25629 - slFr:95:10:5667 - slTo:95:10:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Undo (2) - Undo size: 2 - Repl from: 5687 - Repl to: 5687
+    Insert Text (1) - Text: 25daa40 - size: 2 - clean: 1
+    Text - sz:778:25629 - slFr:95:10:5687 - slTo:95:10:5687 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:778:25631 - slFr:5689 - slTo:5689 - nlA:0
+    Line Starts: 775:25627 776:25629 777:25630 778:25631
+    Undo (3) - sz:778:25631 - slFr:5689 - slTo:5689 - nlA:0
+    Line Starts: 775:25627 776:25629 777:25630 778:25631
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:778:25631 - slFr:96:10:5689 - slTo:96:10:5689 - nlA:0
+    Line Starts: 775:25627 776:25629 777:25630 778:25631
+    Undo (2) - Undo size: 0 - Repl from: 5687 - Repl to: 5689
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:778:25631 - slFr:96:10:5687 - slTo:96:10:5689 - nlA:0
+    Line Starts: 775:25627 776:25629 777:25630 778:25631
+    Delete Selection (2) - From line: 96 - From col: 10 - To line: 96 - To col: 10
+    Delete Selection (3) - sz:778:25629 - slFr:5687 - slTo:5687 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Undo (3) - sz:778:25629 - slFr:5667 - slTo:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:778:25629 - slFr:95:10:5667 - slTo:95:10:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Undo (2) - Undo size: 0 - Repl from: 5665 - Repl to: 5667
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:778:25629 - slFr:95:10:5665 - slTo:95:10:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Delete Selection (2) - From line: 95 - From col: 10 - To line: 95 - To col: 10
+    Delete Selection (3) - sz:778:25627 - slFr:5665 - slTo:5665 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Undo (3) - sz:778:25627 - slFr:3953 - slTo:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:778:25627 - slFr:70:1:3953 - slTo:88:99:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Undo (2) - Undo size: 214 - Repl from: 3953 - Repl to: 5556
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:778:25627 - slFr:70:1:3953 - slTo:88:99:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Delete Selection (2) - From line: 70 - From col: 1 - To line: 88 - To col: 99
+    Delete Selection (3) - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (1) - Text: 25daa40 - size: 214 - clean: 1
+    Text - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (2) - numNewLines: 3
+    Insert Text (3) - sz:763:24238 - slFr:4167 - slTo:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Undo (3) - sz:763:24238 - slFr:4167 - slTo:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 25daa40 - Undo: 1
+    Text - sz:763:24238 - slFr:73:50:4167 - slTo:73:50:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Undo (2) - Undo size: 1603 - Repl from: 3953 - Repl to: 4167
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:763:24238 - slFr:73:50:3953 - slTo:73:50:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Delete Selection (2) - From line: 73 - From col: 50 - To line: 73 - To col: 50
+    Delete Selection (3) - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (1) - Text: 25daa40 - size: 1603 - clean: 1
+    Text - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (2) - numNewLines: 18
+    Insert Text (3) - sz:778:25627 - slFr:5556 - slTo:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Undo (3) - sz:778:25627 - slFr:3953 - slTo:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:778:25627 - slFr:70:1:3953 - slTo:88:99:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Undo (2) - Undo size: 214 - Repl from: 3953 - Repl to: 5556
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:778:25627 - slFr:70:1:3953 - slTo:88:99:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Delete Selection (2) - From line: 70 - From col: 1 - To line: 88 - To col: 99
+    Delete Selection (3) - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (1) - Text: 25daa40 - size: 214 - clean: 1
+    Text - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (2) - numNewLines: 3
+    Insert Text (3) - sz:763:24238 - slFr:4167 - slTo:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Undo (3) - sz:763:24238 - slFr:4167 - slTo:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25daa40 - L: 70 - C: 5
+    Text - sz:763:24238 - slFr:73:50:4167 - slTo:73:50:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Set Selection (2) - sz:763:24238 - slFr:3957 - slTo:3957 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25daa40 - L: 70 - C: 5 (x1)
+    Text - sz:763:24238 - slFr:70:5:3957 - slTo:70:5:3957 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25daa40 - ch: 8
+    Text - sz:763:24238 - slFr:3957 - slTo:3957 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Keystroke (2) - sz:763:24237 - slFr:3956 - slTo:3956 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_INDENT
+    Indent (1) - Text: 25daa40
+    Text - sz:763:24237 - slFr:70:4:3956 - slTo:70:4:3956 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Set Selection (1) - Text: 25daa40 - L: 70 - C: 0
+    Text - sz:763:24237 - slFr:3956 - slTo:3956 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Set Selection (2) - sz:763:24237 - slFr:3952 - slTo:3952 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Indent (2) - sz:763:24237 - slFr:3952 - slTo:3952 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:763:24237 - slFr:70:0:3952 - slTo:70:0:3952 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Undo (2) - Undo size: 24237 - Repl from: 0 - Repl to: 24238
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:763:24237 - slFr:70:0:0 - slTo:70:0:24238 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Delete Selection (2) - From line: 70 - From col: 0 - To line: 70 - To col: 0
+
+
+Registers
+  EAX=09D7BC8D  EBX=00408985  ECX=3FFFFB23  EDX=00000003  ESI=09D7CFFE
+  EDI=09D77150  EBP=0019DD20  ESP=0019DD18  EIP=00526F83  FLG=00010202
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    C:\Program Files (x86)\Ready to Program\Ready.exe
+    C:\WINDOWS\SYSTEM32\ntdll.dll
+    C:\WINDOWS\System32\KERNEL32.DLL
+    C:\WINDOWS\System32\KERNELBASE.dll
+    C:\WINDOWS\System32\USER32.dll
+    C:\WINDOWS\System32\win32u.dll
+    C:\WINDOWS\System32\GDI32.dll
+    C:\WINDOWS\System32\gdi32full.dll
+    C:\WINDOWS\System32\msvcp_win.dll
+    C:\WINDOWS\System32\ucrtbase.dll
+    C:\WINDOWS\System32\comdlg32.dll
+    C:\WINDOWS\System32\msvcrt.dll
+    C:\WINDOWS\System32\combase.dll
+    C:\WINDOWS\System32\RPCRT4.dll
+    C:\WINDOWS\System32\shcore.dll
+    C:\WINDOWS\System32\SHLWAPI.dll
+    C:\WINDOWS\System32\SHELL32.dll
+    C:\WINDOWS\System32\ADVAPI32.dll
+    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_c0da534e38c01f4d\COMCTL32.dll
+    C:\WINDOWS\System32\sechost.dll
+    C:\WINDOWS\SYSTEM32\VERSION.dll
+    C:\WINDOWS\SYSTEM32\WINMM.dll
+    C:\WINDOWS\System32\IMM32.DLL
+    C:\WINDOWS\system32\uxtheme.dll
+    C:\WINDOWS\System32\MSCTF.dll
+    C:\WINDOWS\System32\OLEAUT32.dll
+    C:\Program Files (x86)\Ready to Program\Support\Bin\edjdll.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll
+    C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\hpi.dll
+    C:\WINDOWS\System32\bcryptPrimitives.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\verify.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\java.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\zip.dll
+    C:\WINDOWS\SYSTEM32\textinputframework.dll
+    C:\WINDOWS\System32\CoreMessaging.dll
+    C:\WINDOWS\System32\CoreUIComponents.dll
+    C:\WINDOWS\System32\WS2_32.dll
+    C:\WINDOWS\SYSTEM32\ntmarta.dll
+    C:\WINDOWS\SYSTEM32\wintypes.dll
+    C:\WINDOWS\SYSTEM32\LSKHOOK.DLL
+    C:\WINDOWS\SYSTEM32\TextShaping.dll
+    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_a8625c1886757984\comctl32.DLL
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\dt_shmem.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\net.dll
+    C:\WINDOWS\system32\napinsp.dll
+    C:\WINDOWS\system32\pnrpnsp.dll
+    C:\WINDOWS\system32\wshbth.dll
+    C:\WINDOWS\system32\NLAapi.dll
+    C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+    C:\WINDOWS\System32\mswsock.dll
+    C:\WINDOWS\SYSTEM32\DNSAPI.dll
+    C:\WINDOWS\System32\NSI.dll
+    C:\WINDOWS\System32\winrnr.dll
+    C:\WINDOWS\System32\fwpuclnt.dll
+    C:\WINDOWS\System32\bcrypt.dll
+    C:\Windows\System32\rasadhlp.dll
+    C:\WINDOWS\System32\ole32.dll
+    C:\WINDOWS\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:00526f83 Ret=0043eee4 Frame=0019dd20 Stack=0019dd18
+    Parameters (0x09d75de0 0x09d7bc8e 0xffffffff 0x0019e1e4)
+    .\Intel\MEMCPY.ASM, memmove (), Line 0171+0000 byte(s)
+  1 .V PC=0023:0043eee4 Ret=0043fb23 Frame=0019dd6c Stack=0019dd28
+    Parameters (0x025daa40 0x07afcf90 0x07b902a8 0x00002890)
+    src\edtext.c, EdText_SelectionDelete (), Line 2451+0026 byte(s)
+  2 .V PC=0023:0043fb23 Ret=0040d20a Frame=0019dd94 Stack=0019dd74
+    Parameters (0x025daa40 0x00000000 0x025daa40 0x00001afe)
+    src\edtext.c, EdText_Undo (), Line 2993+0009 byte(s)
+  3 .V PC=0023:0040d20a Ret=0040aa6c Frame=0019ddac Stack=0019dd9c
+    Parameters (0x0001057e 0x00000000 0x0019e244 0x0001057e)
+    src\eddisp.c, MyEditUndo (), Line 4829+0013 byte(s)
+  4 .V PC=0023:0040aa6c Ret=00409061 Frame=0019e1e4 Stack=0019ddb4
+    Parameters (0x0001057e 0x0000044e 0x00000111 0x0001057e)
+    src\eddisp.c, MyCommandHandler (), Line 3043+0011 byte(s)
+  5 .V PC=0023:00409061 Ret=004089e0 Frame=0019e244 Stack=0019e1ec
+    Parameters (0x0001057e 0x00000111 0x0001044e 0x00000001)
+    src\eddisp.c, MyCommonMessageHandler (), Line 3487+0019 byte(s)
+  6 .V PC=0023:004089e0 Ret=7694148b Frame=0019e26c Stack=0019e24c
+    Parameters (0x0001057e 0x00000111 0x0001044e 0x00000001)
+    src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1962+0025 byte(s)
+  7 .V PC=0023:7694148b Ret=7693844a Frame=0019e298 Stack=0019e274
+    Parameters (0x00408985 0x0001057e 0x00000111 0x0001044e)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+  8 .V PC=0023:7693844a Ret=76937829 Frame=0019e37c Stack=0019e2a0
+    Parameters (0x00408985 0x00000000 0x00000111 0x0001044e)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+  9 .V PC=0023:76937829 Ret=76924709 Frame=0019e3e4 Stack=0019e384
+    Parameters (0x010a4960 0x00000000 0x00000001 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 10 .V PC=0023:76924709 Ret=00447d4e Frame=0019e400 Stack=0019e3ec
+    Parameters (0x0001057e 0x00000111 0x0001044e 0x00000001)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 11 .V PC=0023:00447d4e Ret=7694148b Frame=0019e438 Stack=0019e408
+    Parameters (0x000404da 0x00000111 0x0001044e 0x00000000)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1165+0032 byte(s)
+ 12 .V PC=0023:7694148b Ret=7693844a Frame=0019e464 Stack=0019e440
+    Parameters (0x00447af5 0x000404da 0x00000111 0x0001044e)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 13 .V PC=0023:7693844a Ret=7693804a Frame=0019e548 Stack=0019e46c
+    Parameters (0x00447af5 0x00000000 0x00000111 0x0001044e)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 14 .V PC=0023:7693804a Ret=7693bc0f Frame=0019e5ac Stack=0019e550
+    Parameters (0x01099980 0x00000000 0x00000111 0x0001044e)
+    Unknown module, GetClassLongW() + 0938 byte(s)
+ 15 .V PC=0023:7693bc0f Ret=77c64fbd Frame=0019e5e8 Stack=0019e5b4
+    Parameters (0x0019e604 0x00000020 0x0019ff60 0x77c64ef0)
+    Unknown module, CallNextHookEx() + 0415 byte(s)
+ 16 .V PC=0023:77c64fbd Ret=00403146 Frame=0019e640 Stack=0019e5f0
+    Parameters (0x000404da 0x001904d7 0x0019e668 0x0019e664)
+    Unknown module, KiUserCallbackDispatcher() + 0077 byte(s)
+ 17 .V PC=0023:00403146 Ret=00403102 Frame=0019e658 Stack=0019e648
+    Parameters (0x0019e668 0x0019e690 0x0001057e 0x00000100)
+    src\ed.c, MyProcessMessage (), Line 1828+0041 byte(s)
+ 18 .V PC=0023:00403102 Ret=0040170f Frame=0019e688 Stack=0019e660
+    Parameters (0x0052bb70 0x0052bb70 0xcccccccc 0xcccccccc)
+    src\ed.c, MyProcessEvents (), Line 1804+0009 byte(s)
+ 19 .V PC=0023:0040170f Ret=0052bc96 Frame=0019fee0 Stack=0019e690
+    Parameters (0x00400000 0x00000000 0x00972724 0x00000001)
+    src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 20 .V PC=0023:0052bc96 Ret=775700f9 Frame=0019ff70 Stack=0019fee8
+    Parameters (0x003d3000 0x775700e0 0x0019ffdc 0x77c57bbe)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 21 .V PC=0023:775700f9 Ret=77c57bbe Frame=0019ff80 Stack=0019ff78
+    Parameters (0x003d3000 0x89d3d633 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0025 byte(s)
+ 22 .V PC=0023:77c57bbe Ret=77c57b8e Frame=0019ffdc Stack=0019ff88
+    Parameters (0xffffffff 0x77c78d29 0x00000000 0x00000000)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0286 byte(s)
+ 23 .V PC=0023:77c57b8e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x0052bb70 0x003d3000 0x00000000 0x78746341)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0238 byte(s)
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: Jan 19 2023 1:45 PM
+
+File Name: C:\Program Files (x86)\Ready to Program\Ready.exe
+Version: 1.7  [11]
+File Size: 2904103
+File Date: Oct 2 2003 3:13 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Undo (3) - sz:778:25629 - slFr:5667 - slTo:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 25daa40 - Undo: 1
+    Text - sz:778:25629 - slFr:95:10:5667 - slTo:95:10:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Undo (2) - Undo size: 2 - Repl from: 5687 - Repl to: 5687
+    Insert Text (1) - Text: 25daa40 - size: 2 - clean: 1
+    Text - sz:778:25629 - slFr:95:10:5687 - slTo:95:10:5687 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:778:25631 - slFr:5689 - slTo:5689 - nlA:0
+    Line Starts: 775:25627 776:25629 777:25630 778:25631
+    Undo (3) - sz:778:25631 - slFr:5689 - slTo:5689 - nlA:0
+    Line Starts: 775:25627 776:25629 777:25630 778:25631
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:778:25631 - slFr:96:10:5689 - slTo:96:10:5689 - nlA:0
+    Line Starts: 775:25627 776:25629 777:25630 778:25631
+    Undo (2) - Undo size: 0 - Repl from: 5687 - Repl to: 5689
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:778:25631 - slFr:96:10:5687 - slTo:96:10:5689 - nlA:0
+    Line Starts: 775:25627 776:25629 777:25630 778:25631
+    Delete Selection (2) - From line: 96 - From col: 10 - To line: 96 - To col: 10
+    Delete Selection (3) - sz:778:25629 - slFr:5687 - slTo:5687 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Undo (3) - sz:778:25629 - slFr:5667 - slTo:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:778:25629 - slFr:95:10:5667 - slTo:95:10:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Undo (2) - Undo size: 0 - Repl from: 5665 - Repl to: 5667
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:778:25629 - slFr:95:10:5665 - slTo:95:10:5667 - nlA:0
+    Line Starts: 775:25625 776:25627 777:25628 778:25629
+    Delete Selection (2) - From line: 95 - From col: 10 - To line: 95 - To col: 10
+    Delete Selection (3) - sz:778:25627 - slFr:5665 - slTo:5665 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Undo (3) - sz:778:25627 - slFr:3953 - slTo:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:778:25627 - slFr:70:1:3953 - slTo:88:99:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Undo (2) - Undo size: 214 - Repl from: 3953 - Repl to: 5556
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:778:25627 - slFr:70:1:3953 - slTo:88:99:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Delete Selection (2) - From line: 70 - From col: 1 - To line: 88 - To col: 99
+    Delete Selection (3) - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (1) - Text: 25daa40 - size: 214 - clean: 1
+    Text - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (2) - numNewLines: 3
+    Insert Text (3) - sz:763:24238 - slFr:4167 - slTo:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Undo (3) - sz:763:24238 - slFr:4167 - slTo:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 25daa40 - Undo: 1
+    Text - sz:763:24238 - slFr:73:50:4167 - slTo:73:50:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Undo (2) - Undo size: 1603 - Repl from: 3953 - Repl to: 4167
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:763:24238 - slFr:73:50:3953 - slTo:73:50:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Delete Selection (2) - From line: 73 - From col: 50 - To line: 73 - To col: 50
+    Delete Selection (3) - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (1) - Text: 25daa40 - size: 1603 - clean: 1
+    Text - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (2) - numNewLines: 18
+    Insert Text (3) - sz:778:25627 - slFr:5556 - slTo:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Undo (3) - sz:778:25627 - slFr:3953 - slTo:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:778:25627 - slFr:70:1:3953 - slTo:88:99:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Undo (2) - Undo size: 214 - Repl from: 3953 - Repl to: 5556
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:778:25627 - slFr:70:1:3953 - slTo:88:99:5556 - nlA:0
+    Line Starts: 775:25623 776:25625 777:25626 778:25627
+    Delete Selection (2) - From line: 70 - From col: 1 - To line: 88 - To col: 99
+    Delete Selection (3) - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (1) - Text: 25daa40 - size: 214 - clean: 1
+    Text - sz:760:24024 - slFr:3953 - slTo:3953 - nlA:0
+    Line Starts: 757:24020 758:24022 759:24023 760:24024
+    Insert Text (2) - numNewLines: 3
+    Insert Text (3) - sz:763:24238 - slFr:4167 - slTo:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Undo (3) - sz:763:24238 - slFr:4167 - slTo:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25daa40 - L: 70 - C: 5
+    Text - sz:763:24238 - slFr:73:50:4167 - slTo:73:50:4167 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Set Selection (2) - sz:763:24238 - slFr:3957 - slTo:3957 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25daa40 - L: 70 - C: 5 (x1)
+    Text - sz:763:24238 - slFr:70:5:3957 - slTo:70:5:3957 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25daa40 - ch: 8
+    Text - sz:763:24238 - slFr:3957 - slTo:3957 - nlA:0
+    Line Starts: 760:24234 761:24236 762:24237 763:24238
+    Keystroke (2) - sz:763:24237 - slFr:3956 - slTo:3956 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_INDENT
+    Indent (1) - Text: 25daa40
+    Text - sz:763:24237 - slFr:70:4:3956 - slTo:70:4:3956 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Set Selection (1) - Text: 25daa40 - L: 70 - C: 0
+    Text - sz:763:24237 - slFr:3956 - slTo:3956 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Set Selection (2) - sz:763:24237 - slFr:3952 - slTo:3952 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Indent (2) - sz:763:24237 - slFr:3952 - slTo:3952 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_REDO
+    Undo (1) - Text: 25daa40 - Undo: 0
+    Text - sz:763:24237 - slFr:70:0:3952 - slTo:70:0:3952 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Undo (2) - Undo size: 24237 - Repl from: 0 - Repl to: 24238
+    Delete Selection (1) - Text: 25daa40
+    Text - sz:763:24237 - slFr:70:0:0 - slTo:70:0:24238 - nlA:0
+    Line Starts: 760:24233 761:24235 762:24236 763:24237
+    Delete Selection (2) - From line: 70 - From col: 0 - To line: 70 - To col: 0
+
+
+Registers
+  EAX=09D7BC8D  EBX=00408985  ECX=3FFFFB23  EDX=00000003  ESI=09D7CFFE
+  EDI=09D77150  EBP=0019DD20  ESP=0019DD18  EIP=00526F83  FLG=00010202
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    C:\Program Files (x86)\Ready to Program\Ready.exe
+    C:\WINDOWS\SYSTEM32\ntdll.dll
+    C:\WINDOWS\System32\KERNEL32.DLL
+    C:\WINDOWS\System32\KERNELBASE.dll
+    C:\WINDOWS\System32\USER32.dll
+    C:\WINDOWS\System32\win32u.dll
+    C:\WINDOWS\System32\GDI32.dll
+    C:\WINDOWS\System32\gdi32full.dll
+    C:\WINDOWS\System32\msvcp_win.dll
+    C:\WINDOWS\System32\ucrtbase.dll
+    C:\WINDOWS\System32\comdlg32.dll
+    C:\WINDOWS\System32\msvcrt.dll
+    C:\WINDOWS\System32\combase.dll
+    C:\WINDOWS\System32\RPCRT4.dll
+    C:\WINDOWS\System32\shcore.dll
+    C:\WINDOWS\System32\SHLWAPI.dll
+    C:\WINDOWS\System32\SHELL32.dll
+    C:\WINDOWS\System32\ADVAPI32.dll
+    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_c0da534e38c01f4d\COMCTL32.dll
+    C:\WINDOWS\System32\sechost.dll
+    C:\WINDOWS\SYSTEM32\VERSION.dll
+    C:\WINDOWS\SYSTEM32\WINMM.dll
+    C:\WINDOWS\System32\IMM32.DLL
+    C:\WINDOWS\system32\uxtheme.dll
+    C:\WINDOWS\System32\MSCTF.dll
+    C:\WINDOWS\System32\OLEAUT32.dll
+    C:\Program Files (x86)\Ready to Program\Support\Bin\edjdll.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll
+    C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\hpi.dll
+    C:\WINDOWS\System32\bcryptPrimitives.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\verify.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\java.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\zip.dll
+    C:\WINDOWS\SYSTEM32\textinputframework.dll
+    C:\WINDOWS\System32\CoreMessaging.dll
+    C:\WINDOWS\System32\CoreUIComponents.dll
+    C:\WINDOWS\System32\WS2_32.dll
+    C:\WINDOWS\SYSTEM32\ntmarta.dll
+    C:\WINDOWS\SYSTEM32\wintypes.dll
+    C:\WINDOWS\SYSTEM32\LSKHOOK.DLL
+    C:\WINDOWS\SYSTEM32\TextShaping.dll
+    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_a8625c1886757984\comctl32.DLL
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\dt_shmem.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\net.dll
+    C:\WINDOWS\system32\napinsp.dll
+    C:\WINDOWS\system32\pnrpnsp.dll
+    C:\WINDOWS\system32\wshbth.dll
+    C:\WINDOWS\system32\NLAapi.dll
+    C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+    C:\WINDOWS\System32\mswsock.dll
+    C:\WINDOWS\SYSTEM32\DNSAPI.dll
+    C:\WINDOWS\System32\NSI.dll
+    C:\WINDOWS\System32\winrnr.dll
+    C:\WINDOWS\System32\fwpuclnt.dll
+    C:\WINDOWS\System32\bcrypt.dll
+    C:\Windows\System32\rasadhlp.dll
+    C:\WINDOWS\System32\ole32.dll
+    C:\WINDOWS\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:00526f83 Ret=0043eee4 Frame=0019dd20 Stack=0019dd18
+    Parameters (0x09d75de0 0x09d7bc8e 0xffffffff 0x0019e1e4)
+    .\Intel\MEMCPY.ASM, memmove (), Line 0171+0000 byte(s)
+  1 .V PC=0023:0043eee4 Ret=0043fb23 Frame=0019dd6c Stack=0019dd28
+    Parameters (0x025daa40 0x07afcf90 0x07b902a8 0x00002890)
+    src\edtext.c, EdText_SelectionDelete (), Line 2451+0026 byte(s)
+  2 .V PC=0023:0043fb23 Ret=0040d20a Frame=0019dd94 Stack=0019dd74
+    Parameters (0x025daa40 0x00000000 0x025daa40 0x00001afe)
+    src\edtext.c, EdText_Undo (), Line 2993+0009 byte(s)
+  3 .V PC=0023:0040d20a Ret=0040aa6c Frame=0019ddac Stack=0019dd9c
+    Parameters (0x0001057e 0x00000000 0x0019e244 0x0001057e)
+    src\eddisp.c, MyEditUndo (), Line 4829+0013 byte(s)
+  4 .V PC=0023:0040aa6c Ret=00409061 Frame=0019e1e4 Stack=0019ddb4
+    Parameters (0x0001057e 0x0000044e 0x00000111 0x0001057e)
+    src\eddisp.c, MyCommandHandler (), Line 3043+0011 byte(s)
+  5 .V PC=0023:00409061 Ret=004089e0 Frame=0019e244 Stack=0019e1ec
+    Parameters (0x0001057e 0x00000111 0x0001044e 0x00000001)
+    src\eddisp.c, MyCommonMessageHandler (), Line 3487+0019 byte(s)
+  6 .V PC=0023:004089e0 Ret=7694148b Frame=0019e26c Stack=0019e24c
+    Parameters (0x0001057e 0x00000111 0x0001044e 0x00000001)
+    src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1962+0025 byte(s)
+  7 .V PC=0023:7694148b Ret=7693844a Frame=0019e298 Stack=0019e274
+    Parameters (0x00408985 0x0001057e 0x00000111 0x0001044e)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+  8 .V PC=0023:7693844a Ret=76937829 Frame=0019e37c Stack=0019e2a0
+    Parameters (0x00408985 0x00000000 0x00000111 0x0001044e)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+  9 .V PC=0023:76937829 Ret=76924709 Frame=0019e3e4 Stack=0019e384
+    Parameters (0x010a4960 0x00000000 0x00000001 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 10 .V PC=0023:76924709 Ret=00447d4e Frame=0019e400 Stack=0019e3ec
+    Parameters (0x0001057e 0x00000111 0x0001044e 0x00000001)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 11 .V PC=0023:00447d4e Ret=7694148b Frame=0019e438 Stack=0019e408
+    Parameters (0x000404da 0x00000111 0x0001044e 0x00000000)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1165+0032 byte(s)
+ 12 .V PC=0023:7694148b Ret=7693844a Frame=0019e464 Stack=0019e440
+    Parameters (0x00447af5 0x000404da 0x00000111 0x0001044e)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 13 .V PC=0023:7693844a Ret=7693804a Frame=0019e548 Stack=0019e46c
+    Parameters (0x00447af5 0x00000000 0x00000111 0x0001044e)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 14 .V PC=0023:7693804a Ret=7693bc0f Frame=0019e5ac Stack=0019e550
+    Parameters (0x01099980 0x00000000 0x00000111 0x0001044e)
+    Unknown module, GetClassLongW() + 0938 byte(s)
+ 15 .V PC=0023:7693bc0f Ret=77c64fbd Frame=0019e5e8 Stack=0019e5b4
+    Parameters (0x0019e604 0x00000020 0x0019ff60 0x77c64ef0)
+    Unknown module, CallNextHookEx() + 0415 byte(s)
+ 16 .V PC=0023:77c64fbd Ret=00403146 Frame=0019e640 Stack=0019e5f0
+    Parameters (0x000404da 0x001904d7 0x0019e668 0x0019e664)
+    Unknown module, KiUserCallbackDispatcher() + 0077 byte(s)
+ 17 .V PC=0023:00403146 Ret=00403102 Frame=0019e658 Stack=0019e648
+    Parameters (0x0019e668 0x0019e690 0x0001057e 0x00000100)
+    src\ed.c, MyProcessMessage (), Line 1828+0041 byte(s)
+ 18 .V PC=0023:00403102 Ret=0040170f Frame=0019e688 Stack=0019e660
+    Parameters (0x0052bb70 0x0052bb70 0xcccccccc 0xcccccccc)
+    src\ed.c, MyProcessEvents (), Line 1804+0009 byte(s)
+ 19 .V PC=0023:0040170f Ret=0052bc96 Frame=0019fee0 Stack=0019e690
+    Parameters (0x00400000 0x00000000 0x00972724 0x00000001)
+    src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 20 .V PC=0023:0052bc96 Ret=775700f9 Frame=0019ff70 Stack=0019fee8
+    Parameters (0x003d3000 0x775700e0 0x0019ffdc 0x77c57bbe)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 21 .V PC=0023:775700f9 Ret=77c57bbe Frame=0019ff80 Stack=0019ff78
+    Parameters (0x003d3000 0x89d3d633 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0025 byte(s)
+ 22 .V PC=0023:77c57bbe Ret=77c57b8e Frame=0019ffdc Stack=0019ff88
+    Parameters (0xffffffff 0x77c78d29 0x00000000 0x00000000)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0286 byte(s)
+ 23 .V PC=0023:77c57b8e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x0052bb70 0x003d3000 0x00000000 0x78746341)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0238 byte(s)
+
+------------------------------------------------------
+
+Crashed in Crash Handler!
